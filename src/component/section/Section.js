@@ -22,7 +22,7 @@ function Section(apidata) {
               <div className="rightside">
                 <button className="roundbtn">{index}%</button>
                 <div className="seactionheading">
-                  <span>{item.display_name}</span>
+                  <span id={item.node_link_id}>{item.display_name}</span>
                   <span>Lecture : {item.children.length}</span>
                 </div>
               </div>

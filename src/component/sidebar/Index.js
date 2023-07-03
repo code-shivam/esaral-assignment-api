@@ -11,8 +11,9 @@ function Index(apidata) {
       </div>
       <div className="indexdata">
         {apidata.apidata.map((el) => {
-          return <h3>{el.display_name}</h3>;
-        })}
+          return (
+          <h3><a href={`#${el.node_link_id}`}>{el.display_name}</a> </h3>
+        )})}
       </div>
     </div>
   );
