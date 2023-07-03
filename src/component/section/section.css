@@ -1,0 +1,101 @@
+.section{
+    overflow-y: scroll;
+    height: 670px;
+
+}
+
+.loading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 650px;
+    flex-direction: column;
+}
+
+.section::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .section::-webkit-scrollbar-corner {
+    background-color: white;
+  }
+  
+  .section::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  
+  .section::-webkit-scrollbar-thumb {
+   background: #b8b9ba;
+    border-radius: 6px;
+  }
+  
+  .section::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(57, 56, 56);
+  }
+
+.seactionContainer{
+    background-color: #ffffff;
+padding:10px 0 20px 20px ;
+}
+.roundbtn{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.seactionheading{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+.rightside{
+    display: flex;
+
+    align-items: center;
+}
+.data{
+    display: flex;
+    overflow-x: scroll;
+}
+
+
+.data::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .data::-webkit-scrollbar-corner {
+    background-color: white;
+  }
+  
+  .data::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  
+  .data::-webkit-scrollbar-thumb {
+   background: #b8b9ba;
+    border-radius: 6px;
+  }
+  
+  .data::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(57, 56, 56);
+  }
+
+
+.data1{
+    display: flex;
+    align-items: center;
+  /* text-align: center; */
+    justify-content: space-between;
+}
+.graterimage{
+    height: 20px;
+    border-radius: 50%;
+}
+.box{
+    margin: 8px;
+}
+.lectureimage{
+    height: 120px;
+    border-radius: 8%;
+}
